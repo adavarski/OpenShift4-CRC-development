@@ -513,7 +513,7 @@ $ odo create nodejs --s2i --git https://github.com/openshift/nodejs-ex.git
 $ oc new-app https://github.com/spring-projects/spring-petclinic.git
 $ odo create java --s2i --git https://github.com/spring-projects/spring-petclinic.git
 ```
-### php
+#### php
 ```
 $ oc new-app https://github.com/sclorg/cakephp-ex
 $ odo create php --s2i --git https://github.com/openshift/cakephp-ex.git
