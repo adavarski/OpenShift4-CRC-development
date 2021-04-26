@@ -301,8 +301,8 @@ Set proxy for http as well as ssl in your browser to point to: 127.0.0.1:7777
 
 Firefox example below:
 
-<img src="https://github.com/adavarski/OpenShift4-CRC-ubuntu/blob/main/pictures/firefox-proxy-config.png" width="300">
-<img src="https://github.com/adavarski/OpenShift4-CRC-ubuntu/blob/main/pictures/crc-console-ui.png" width="700">
+<img src="https://github.com/adavarski/OpenShift4-CRC-development/blob/main/pictures/firefox-proxy-config.png" width="300">
+<img src="https://github.com/adavarski/OpenShift4-CRC-development/blob/main/pictures/crc-console-ui.png" width="700">
 
 ```
 ### TERMINAL: Setup for oc client to work
