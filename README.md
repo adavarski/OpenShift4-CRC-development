@@ -348,3 +348,5 @@ Thank you for using nginx.
 
 
 ```
+
+Ref: [OpenShift Cheatsheet](https://github.com/adavarski/OpenShift4-CRC-development/blob/main/playground/README-openshift-cheatsheet.md)
