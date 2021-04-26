@@ -74,10 +74,10 @@ Browser: http://jupyter-notebook-default.apps-crc.testing (use generated token f
 
 ### Example H2O AutoML jupyter notebooks:
 
-- AutoML example: https://github.com/adavarski/OpenShift4-CRC-ubuntu/blob/main/playground/h2o-jupyter/notebooks/h2o-automl.ipynb 
+- AutoML example: https://github.com/adavarski/OpenShift4-CRC-development/blob/main/playground/h2o-jupyter/notebooks/h2o-automl.ipynb 
 
 
-- [Coursera-examples](https://github.com/adavarski/OpenShift4-CRC-ubuntu/tree/main/playground/h2o-jupyter/notebooks/Coursera-examples)
+- [Coursera-examples](https://github.com/adavarski/OpenShift4-CRC-development/tree/main/playground/h2o-jupyter/notebooks/Coursera-examples)
 
 Clean: 
 
