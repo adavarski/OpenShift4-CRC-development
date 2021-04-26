@@ -1,4 +1,6 @@
 
+Ref: [OpenShift Cheatsheet](https://github.com/adavarski/OpenShift4-CRC-development/blob/main/playground/README-openshift-cheatsheet.md)
+
 ## Demo1: Using oc apply and DockerHub images
 
 ### Create new project (OPTIONAL)
