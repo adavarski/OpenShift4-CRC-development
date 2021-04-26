@@ -259,7 +259,7 @@ NAME    HOST/PORT                        PATH   SERVICES   PORT       TERMINATIO
 nginx   nginx-default.apps-crc.testing          nginx      8080-tcp                 None
 ```
 
-### 3.Examples applications from GitHub repositories (using source code/ODO)
+### Demo4: Examples applications from GitHub repositories (using source code/ODO)
 
 Creating new apps
 You can create a new OpenShift application using the web console or by running the oc new-app command from the CLI. With the OpenShift CLI there are four ways to create a new application, by specifying either:
