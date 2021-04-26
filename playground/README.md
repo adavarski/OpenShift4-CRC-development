@@ -13,14 +13,14 @@ $ oc project default
 ```
 ### Deploy H2O cluster
 ```
-/$ oc apply -f ./h2o-jupyter/k8s/h2o/40-h2o-statefulset.yaml  -f ./h2o-jupyterk8s/h2o/50-h2o-headless-service.yaml
+$ oc apply -f ./h2o-jupyter/k8s/h2o/40-h2o-statefulset.yaml  -f ./h2o-jupyterk8s/h2o/50-h2o-headless-service.yaml
 ```
 
 ### Jupyter environment
 
 Build custom JupyterLab docker image and pushing it into DockerHub container registry.
 ```
-$ cd ./h2o-jupyterk8s/jupyterlab-docker
+$ cd ./h2o-jupyter/jupyterlab-docker
 $ docker build -t jupyterlab-h2o .
 $ docker tag jupyterlab-h2o:latest davarski/jupyterlab-h2o:latest
 $ docker login 
