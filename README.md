@@ -253,6 +253,10 @@ $ oc version
 127.0.0.1 localhost console-openshift-console.apps-crc.testing oauth-openshift.apps-crc.testing
 ### DevOps CRC remote server
 192.168.1.99 devops
+
+### SSH keys setup
+$ ssh-copy-id -o IdentitiesOnly=yes -i ~/.ssh/id_rsa.pub davar@devops
+$ ssh davar@devops
 ```
 
 Example1: TERMINAL: Setup SSH tunneling to access OpenShift console from terminal (oc client to work)
