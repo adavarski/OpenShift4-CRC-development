@@ -349,4 +349,6 @@ Thank you for using nginx.
 
 ```
 
+### 3.[OpenShift 4 (CRC) Playground] (https://github.com/adavarski/OpenShift4-CRC-development/tree/main/playground)
+
 Ref: [OpenShift Cheatsheet](https://github.com/adavarski/OpenShift4-CRC-development/blob/main/playground/README-openshift-cheatsheet.md)
