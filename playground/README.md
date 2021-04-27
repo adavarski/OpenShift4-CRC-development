@@ -324,8 +324,9 @@ deployer-token-9tmnn       kubernetes.io/service-account-token   4      16d
 deployer-token-dmg9q       kubernetes.io/service-account-token   4      16d
 redhat.registry.pull       kubernetes.io/dockerconfigjson        1      33m
 ```
-OpenShift Do (odo) is a fast and easy-to-use CLI tool for creating applications on OpenShift Container Platform
+OpenShift Do (`odo`) is a fast and easy-to-use CLI tool for creating applications on OpenShift Container Platform. `odo` allows developers to concentrate on creating applications without the need to administrate an OpenShift Container Platform cluster itself. Creating deployment configurations, build configurations, service routes and other OpenShift Container Platform elements are all automated by odo.
 
+Existing tools such as `oc` are more operations-focused and require a deep understanding of Kubernetes and OpenShift Container Platform concepts. `odo` abstracts away complex Kubernetes and OpenShift Container Platform concepts allowing developers to focus on what is most important to them: code.
 ```
 ### odo install: 
 
