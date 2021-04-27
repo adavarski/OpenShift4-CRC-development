@@ -259,7 +259,7 @@ NAME    HOST/PORT                        PATH   SERVICES   PORT       TERMINATIO
 nginx   nginx-default.apps-crc.testing          nginx      8080-tcp                 None
 ```
 
-### Demo4: Examples applications from GitHub repositories (using source code/ODO)
+### Demo4: Examples applications from GitHub repositories (using source code/odo)
 
 Creating new apps
 You can create a new OpenShift application using the web console or by running the oc new-app command from the CLI. With the OpenShift CLI there are four ways to create a new application, by specifying either:
@@ -324,8 +324,11 @@ deployer-token-9tmnn       kubernetes.io/service-account-token   4      16d
 deployer-token-dmg9q       kubernetes.io/service-account-token   4      16d
 redhat.registry.pull       kubernetes.io/dockerconfigjson        1      33m
 ```
-ODO install
+OpenShift Do (odo) is a fast and easy-to-use CLI tool for creating applications on OpenShift Container Platform
+
 ```
+### odo install: 
+
 $ sudo curl -L https://mirror.openshift.com/pub/openshift-v4/clients/odo/latest/odo-linux-amd64 -o /usr/local/bin/odo
 $ sudo chmod +x /usr/local/bin/odo
 $ odo catalog list components
