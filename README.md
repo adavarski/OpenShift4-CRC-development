@@ -180,7 +180,7 @@ CRC minimum memory requirement is 9Gb, even with all the related monitoring, ale
 
 If you have the resources, a simple solution would be to run CRC on a different host. While it is in fact a pretty straightforward process, CRC itself runs as a VM so in order to access it remotely you will have to work around its network.
 
-#### Setup On the remote host
+#### 2.1.Setup On the remote host
 ```
 ### Install packages
 $ echo "$USER ALL=(ALL) NOPASSWD:ALL"|sudo tee -a /etc/sudoers
@@ -239,7 +239,7 @@ $ oc get nodes
 ```
 
 
-#### Setup On the Laptop
+#### 2.2.Setup On the Laptop
 
 ```
 ### Install oc client
