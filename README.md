@@ -1,11 +1,11 @@
 
 ## OpenShift 4 Development Environment (CRC): 
 
-- Setup CodeReady Containers (CRC) on Laptop (ubuntu)
-- Setting up CodeReady Containers (CRC) on a Remote Server (ubuntu) and Remote Access to CRC (remote OpenShift 4 development environment) from Laptop
-- OpenShift 4 (CRC) Playground
+- 1.Setup CodeReady Containers (CRC) on Laptop (ubuntu)
+- 2.Setting up CodeReady Containers (CRC) on a Remote Server (ubuntu) and Remote Access to CRC (remote OpenShift 4 development environment) from Laptop
+- 3.OpenShift 4 (CRC) Playground
 
-### Setup Local OpenShift 4.x Cluster with CodeReady Containers
+### 1.Setup Local OpenShift 4.x Cluster with CodeReady Containers
 
 CRC will host your applications. CodeReady Containers brings a minimal, preconfigured OpenShift 4.x cluster to your local Laptop/Workstattion without the need for a server-based infrastructure.
 
@@ -172,7 +172,7 @@ $ crc delete
 ```
 
 
-### Setting up CodeReady Containers on a remote server and remote access to CRC (remote OPENSHIFT environment)
+### 2.Setting up CodeReady Containers on a remote server and remote access to CRC (remote OPENSHIFT environment)
 
 Red Hat CodeReady Containers (CRC) is an amazing way of getting a minimal preconfigured OpenShift 4 up & running on your local machine with just two commands: crc setup & crc start. Done. But that simplicity comes at a price: RAM.
 
@@ -354,6 +354,6 @@ Thank you for using nginx.
 
 ```
 
-### [OpenShift 4 (CRC) Playground](https://github.com/adavarski/OpenShift4-CRC-development/tree/main/playground)
+### [3.OpenShift 4 (CRC) Playground](https://github.com/adavarski/OpenShift4-CRC-development/tree/main/playground)
 
 Ref: [OpenShift Cheatsheet](https://github.com/adavarski/OpenShift4-CRC-development/blob/main/playground/README-openshift-cheatsheet.md)
