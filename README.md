@@ -1,5 +1,5 @@
 
-## OpenShift 4 Development Environment (CRC): 
+## OpenShift 4 Development Environment (CRC based): 
 
 - Setup CodeReady Containers (CRC) on Laptop (ubuntu)
 - Setting up CodeReady Containers (CRC) on a Remote Server (ubuntu) and Remote Access to CRC (remote OpenShift 4 development environment) from Laptop
