@@ -551,14 +551,14 @@ Kubernetes Version: v1.xx.x
 
 ```
 
-## Create project pipelineproject
+#### Create project pipelineproject
 
 ```
 oc new-project pipelineproject
 
 ```
 
-## Search for Jenkins template
+#### Search for Jenkins template
 ```
 oc get templates -n openshift | grep jenkins 
 jenkins-ephemeral                               Jenkins service, without persistent storage....                                    8 (all set)       6
@@ -568,14 +568,14 @@ jenkins-persistent-monitored                    Jenkins service, with persistent
 
 ```
 
-## View template
+#### View template
 
 ```
 oc get template/jenkins-ephemeral -o json -n openshift
 
 ```
 
-## Process all parameters for a given openshift template 
+#### Process all parameters for a given openshift template 
 
 ```
 oc process --parameters  -n openshift  jenkins-ephemeral # jenkins-persistent
@@ -591,7 +591,7 @@ JENKINS_UC_INSECURE               Whether to allow use of a Jenkins Update Cente
 
 ```
 
-## Deploy Jenkins using jenkins-ephemeral template
+#### Deploy Jenkins using jenkins-ephemeral template
 
 ```
 oc new-app jenkins-ephemeral
@@ -628,7 +628,7 @@ oc new-app jenkins-ephemeral
 
 ```
 
-## Verify the depliyment is completed. 
+#### Verify the depliyment is completed. 
 
 ```
 oc get all
@@ -651,14 +651,14 @@ route.route.openshift.io/jenkins   jenkins-jenkins.apps.cluster-8faf.8faf.sandbo
 
 ```
 
-## Setup Jenkins job
+#### Setup Jenkins job
 * We need to set up a pipeline to build our software, but we want to use the build that is built into OpenShift. The following command will create a build configuration (or “build config,” which is an object of type “BuildConfig”), which has the instructions we give to OpenShift to tell it how to build our application. In this particular case, we’re creating a pipeline that, in turn, has the build instructions:
 
 ```
 oc create -f https://raw.githubusercontent.com/openshift/origin/master/examples/jenkins/pipeline/nodejs-sample-pipeline.yaml
 ```
 
-## List builds
+#### List builds
 
 ```
 oc get buildconfigs 
@@ -668,21 +668,21 @@ nodejs-sample-pipeline   JenkinsPipeline          1
 
 ```
 
-## Start build
+#### Start build
 
 ```
 oc start-build nodejs-sample-pipeline
 ```
 
-## Understanding build configurations
+#### Understanding build configurations
 * https://docs.openshift.com/container-platform/4.4/builds/build-strategies.html#builds-tutorial-pipeline_build-strategies
 * https://docs.openshift.com/container-platform/4.4/builds/understanding-buildconfigs.html
 
-## Note: 
+#### Note: 
 * OpenShift Pipelines Now Available as Technology Preview - https://www.openshift.com/blog/openshift-pipelines-tech-preview-blog 
 * Creating Pipelines with OpenShift 4.4’s new Pipeline Builder and Tekton Pipelines - https://developers.redhat.com/blog/2020/04/30/creating-pipelines-with-openshift-4-4s-new-pipeline-builder-and-tekton-pipelines/
 
-## Resources: 
+#### Resources: 
 * Using build strategies  - https://docs.openshift.com/container-platform/4.4/builds/build-strategies.html#builds-tutorial-pipeline_build-strategies
 * Using templates 	  - https://access.redhat.com/documentation/en-us/openshift_container_platform/4.4/html/images/using-templates
 * Build Strategy Tutorial - https://docs.openshift.com/container-platform/4.4/builds/build-strategies.html#builds-tutorial-pipeline_build-strategies
