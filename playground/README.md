@@ -686,3 +686,4 @@ oc start-build nodejs-sample-pipeline
 * Using build strategies  - https://docs.openshift.com/container-platform/4.4/builds/build-strategies.html#builds-tutorial-pipeline_build-strategies
 * Using templates 	  - https://access.redhat.com/documentation/en-us/openshift_container_platform/4.4/html/images/using-templates
 * Build Strategy Tutorial - https://docs.openshift.com/container-platform/4.4/builds/build-strategies.html#builds-tutorial-pipeline_build-strategies
+* https://www.youtube.com/watch?v=kbbK0VEy2qM - Demo
