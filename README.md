@@ -29,7 +29,8 @@ Download CRC and pull-secret in OPENSIFT directory:
 
 ```
 $ mkdir OPENSHIFT && cd OPENSHIFT/
-$ wget https://mirror.openshift.com/pub/openshift-v4/clients/crc/1.25.0/crc-linux-amd64.tar.xz
+$ wget https://mirror.openshift.com/pub/openshift-v4/clients/crc/1.25.0/crc-linux-amd64.tar.xz 
+#Note: Latest version -20.06.2021: wget https://mirror.openshift.com/pub/openshift-v4/clients/crc/1.28.0/crc-linux-amd64.tar.xz)
 $ tar -xJf ./crc-linux-amd64.tar.xz
 ### Place the binaries in your $PATH using .bash_profile
 $ echo "export PATH=/home/davar/OPENSHIFT/crc-linux-1.25.0-amd64:/home/davar/.crc/bin/oc:$PATH" >> ~/.bash_profile
