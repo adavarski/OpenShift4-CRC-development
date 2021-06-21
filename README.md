@@ -169,6 +169,7 @@ $ oc config use-context crc-admin
 $ crc stop
 ### If you want to delete an existing CodeReady Containers virtual machine, run:
 $ crc delete
+$ crc cleanup
 $ crc delete --clear-cache
 ```
 
