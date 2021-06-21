@@ -69,6 +69,8 @@ $ ip a s
 $ sudo iptables -n -L
 $ crc status
 $ crc version
+$ ssh -i ~/.crc/machines/crc/id_ecdsa core@"$(crc ip)" -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null  -- systemctl list-unit-files --state=failed --all
+
 
 ### Check inside CRC VM
 $ ssh -i ~/.crc/machines/crc/id_ecdsa core@"$(crc ip)"
