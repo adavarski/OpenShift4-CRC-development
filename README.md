@@ -175,8 +175,26 @@ $ oc config use-context crc-admin
 $ crc stop
 ### If you want to delete an existing CodeReady Containers virtual machine, run:
 $ crc delete
+Do you want to delete the OpenShift cluster? [y/N]: y
+Deleted the OpenShift cluster
+
 $ crc cleanup
-$ crc delete --clear-cache
+INFO Removing vsock configuration                 
+INFO Removing 'crc' network from libvirt          
+INFO Removing /etc/NetworkManager/dispatcher.d/99-crc.sh file 
+INFO Using root access: Removing NetworkManager configuration file in /etc/NetworkManager/dispatcher.d/99-crc.sh 
+INFO Using root access: Executing systemctl daemon-reload command 
+INFO Using root access: Executing systemctl reload NetworkManager 
+INFO Cleaning up AppArmor configuration           
+INFO Using root access: Updating AppArmor configuration 
+INFO Using root access: Changing permissions for /etc/apparmor.d/libvirt/TEMPLATE.qemu to 644  
+INFO Removing the crc VM if exists                
+INFO Removing pull secret from the keyring        
+INFO Removing older logs                          
+INFO Removing CRC Machine Instance directory      
+INFO Removing hosts file records added by CRC     
+
+### $ crc delete --clear-cache
 ```
 
 
