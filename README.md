@@ -81,6 +81,9 @@ make configuration changes via `machineconfig` objects:
   https://docs.openshift.com/container-platform/4.7/architecture/architecture-rhcos.html
 
 ---
+[core@crc-xl2km-master-0 ~]$ KUBECONFIG=/opt/kubeconfig kubectl get nodes
+[core@crc-xl2km-master-0 ~]$ KUBECONFIG=/opt/kubeconfig kubectl describe nodes
+
 
 [core@crc-xl2km-master-0 ~]$ sudo su -
 [root@crc-xl2km-master-0 kubernetes]# cat /etc/*rele*
