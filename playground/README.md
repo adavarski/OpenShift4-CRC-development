@@ -681,6 +681,7 @@ oc start-build nodejs-sample-pipeline
 #### Note: 
 * OpenShift Pipelines Now Available as Technology Preview - https://www.openshift.com/blog/openshift-pipelines-tech-preview-blog 
 * Creating Pipelines with OpenShift 4.4’s new Pipeline Builder and Tekton Pipelines - https://developers.redhat.com/blog/2020/04/30/creating-pipelines-with-openshift-4-4s-new-pipeline-builder-and-tekton-pipelines/
+* External Jenkins (`../utils/jenkins-install.sh && sudo cp -a ~/.kube /var/lib/jenkins` -> Install OpenShift&k8s Plugins)
 
 #### Resources: 
 * Using build strategies  - https://docs.openshift.com/container-platform/4.4/builds/build-strategies.html#builds-tutorial-pipeline_build-strategies
