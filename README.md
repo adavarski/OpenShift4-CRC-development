@@ -105,7 +105,7 @@ Red Hat Enterprise Linux CoreOS release 4.7
 Red Hat Enterprise Linux CoreOS release 4.7
 
 ps -ef
-critcl images
+crictl images
 crictl ps -a
 ls /etc/kubernetes/
 ls /etc/kubernetes/manifests/
