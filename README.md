@@ -107,6 +107,7 @@ OSTREE_VERSION='47.83.202103292105-0'
 Red Hat Enterprise Linux CoreOS release 4.7
 Red Hat Enterprise Linux CoreOS release 4.7
 
+systemctl list-units --state=failed --all
 ps -ef
 crictl images
 crictl ps -a
