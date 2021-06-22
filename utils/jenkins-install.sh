@@ -11,4 +11,10 @@ sudo systemctl enable jenkins
 sudo systemctl start jenkins
 
 # sudo usermod --shell /bin/bash jenkins
+# usermod -a -G docker jenkins
+
+# cat >> /etc/sudoers <<EOT
+#jenkins ALL=(ALL)       NOPASSWD: ALL
+#EOT
+
 # Get admin password from file /var/lib/jenkins/secrets/initialAdminPassword
