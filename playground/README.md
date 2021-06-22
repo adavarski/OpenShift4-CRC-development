@@ -623,7 +623,7 @@ oc new-app jenkins-ephemeral
     service "jenkins-jnlp" created
     service "jenkins" created
 --> Success
-    Access your application via route 'jenkins-bookinfo.apps.cluster-8faf.8faf.sandbox1706.opentlc.com' 
+    Access your application via route 'jenkins-pipelineproject.apps-crc.testing' 
     Run 'oc status' to view your app.
 
 ```
@@ -647,7 +647,7 @@ NAME                                         REVISION   DESIRED   CURRENT   TRIG
 deploymentconfig.apps.openshift.io/jenkins   1          1         1         config,image(jenkins:2)
 
 NAME                               HOST/PORT                                                        PATH   SERVICES   PORT    TERMINATION     WILDCARD
-route.route.openshift.io/jenkins   jenkins-jenkins.apps.cluster-8faf.8faf.sandbox1706.opentlc.com          jenkins    <all>   edge/Redirect   None
+route.route.openshift.io/jenkins   jenkins-pipelineproject.apps-crc.testing                         jenkins    <all>   edge/Redirect   None
 
 ```
 
