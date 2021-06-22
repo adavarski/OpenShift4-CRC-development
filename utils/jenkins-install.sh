@@ -10,3 +10,5 @@ sudo apt install -y jenkins
 sudo usermod --shell /bin/bash jenkins
 sudo systemctl enable jenkins
 sudo systemctl start jenkins
+
+# Get admin password from file /var/lib/jenkins/secrets/initialAdminPassword
