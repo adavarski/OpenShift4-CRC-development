@@ -51,7 +51,7 @@ $ vmstat -s
 $ crc config set memory 12288
 $ crc config set consent-telemetry no
 $ crc config set pull-secret-file ~/OPENSHIFT/pull-secret.txt
-Successfully configured pull-secret-file to /home/davar/OPENSHIFT/pull-secret.txt
+$ crc config view
 - consent-telemetry                     : no
 - memory                                : 12288
 - pull-secret-file                      : /home/davar/OPENSHIFT/pull-secret.txt
