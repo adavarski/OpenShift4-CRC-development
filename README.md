@@ -84,6 +84,11 @@ make configuration changes via `machineconfig` objects:
   https://docs.openshift.com/container-platform/4.7/architecture/architecture-rhcos.html
 
 ---
+### Setup user:developer in this example (add-cluster-role-to-user cluster-admin) and delete kubeadmin user (OPTIONAL: security) 
+[core@crc-pkjt4-master-0 ~]$ oc --kubeconfig /opt/kubeconfig  adm policy add-cluster-role-to-user cluster-admin developer
+clusterrole.rbac.authorization.k8s.io/cluster-admin added: "developer"
+
+
 [core@crc-xl2km-master-0 ~]$ KUBECONFIG=/opt/kubeconfig kubectl get nodes
 [core@crc-xl2km-master-0 ~]$ KUBECONFIG=/opt/kubeconfig kubectl describe nodes
 
