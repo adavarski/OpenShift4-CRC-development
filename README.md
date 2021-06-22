@@ -70,6 +70,7 @@ $ ip a s
 $ sudo iptables -n -L
 $ crc status
 $ crc version
+$ crc config set kubeadmin-password kubeadmin (v1.28.0+)
 $ ssh -i ~/.crc/machines/crc/id_ecdsa core@"$(crc ip)" -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null  -- systemctl list-unit-files --state=failed --all
 
 
