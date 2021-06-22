@@ -11,7 +11,7 @@ sudo systemctl enable jenkins
 sudo systemctl start jenkins
 
 # sudo usermod --shell /bin/bash jenkins
-# usermod -a -G docker jenkins
+# sudo usermod -a -G docker jenkins
 
 # cat >> /etc/sudoers <<EOT
 #jenkins ALL=(ALL)       NOPASSWD: ALL
